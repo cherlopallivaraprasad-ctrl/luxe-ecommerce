@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack E-Commerce Web Application (React + Node.js + Express + Prisma + MySQL/SQLite)",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "db:migrate": "npm --prefix server run prisma:migrate",
+    "db:seed": "npm --prefix server run prisma:seed",
+    "db:studio": "npm --prefix server run prisma:studio"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "vite",
+    "express",
+    "prisma",
+    "tailwind",
+    "framer-motion"
+  ],
+  "author": "",
+  "license": "MIT"
+}
